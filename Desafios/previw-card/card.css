@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(2, 2, 37) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 250px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(34, 48, 95);
+}
+
+picture>img{
+   width: 250px;
+   height: 200px;
+   border-radius: 10px;
+   display: flex;
+   cursor: pointer;
+
+}
+
+h3{
+    padding: 10px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h3:hover{
+    color: aqua;
+}
+
+.text1{
+    padding: 10px 0px;
+    font-weight: normal;
+    font-size: 13.5px;
+}
+
+div{
+    text-align: left;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 12px
+}
+
+.img1{
+    padding: 0px;
+font-weight:normal ;
+font-size: 14px;
+
+}
+.t1{
+    color: aqua;
+    font-size: 13px;
+}
+
+
+.img3{
+    margin: 20px 0px;
+    display: flex;
+  
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+span{
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 13px;
+    padding-top: 8px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.ju{
+    transition: 1s;
+}
+.ju:hover{
+    color: aqua;
+}
+
+
+
